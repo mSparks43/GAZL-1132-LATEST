@@ -1,0 +1,16 @@
+TEXTURE GAZL_fuselage.png
+TEXTURE_NORMAL GAZL_fuselage_PBR.png
+NORMAL_METALNESS
+GLOBAL_specular 1.0
+
+
+TEXTURE transparency.png
+TEXTURE_NORMAL	GAZL_perspex_INN_NML.png
+GLOBAL_specular 1.0
+BLEND_GLASS
+
+
+TEXTURE transparency.png
+TEXTURE_NORMAL	GAZL_perspex_OUT_NML.png
+GLOBAL_specular 1.0
+BLEND_GLASS
