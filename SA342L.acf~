@@ -145,7 +145,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR 0.0
 P _gear/0/_scon 2207.722656250
-P _gear/0/_stat_def 0.222930998
+P _gear/0/_stat_def 0.222931013
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -179,7 +179,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 2207.722656250
-P _gear/1/_stat_def 0.222930998
+P _gear/1/_stat_def 0.222931013
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -213,7 +213,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 0.0
 P _gear/2/_scon 2207.722656250
-P _gear/2/_stat_def 0.633354902
+P _gear/2/_stat_def 0.633354962
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.0
@@ -247,7 +247,7 @@ P _gear/3/_lonE 0.0
 P _gear/3/_lonN 0.0
 P _gear/3/_lonR 0.0
 P _gear/3/_scon 2207.722656250
-P _gear/3/_stat_def 0.633354902
+P _gear/3/_stat_def 0.633354962
 P _gear/3/_steerdeg_hispeed 0.0
 P _gear/3/_steerdeg_lospeed 0.0
 P _gear/3/_strut_comp 0.0
@@ -25101,28 +25101,10 @@ PROPERTIES_END
 PANEL_2D_BEGIN
 PANEL_2D_END
 PANEL_3D_BEGIN
-rad_DME_N12_GA DME_N12_GA.png
-  POS 128.000000 21.000000
-  DATAREF 
-  SIZE 1.500000
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 ins_slip_inverted slip_inverted.png
   POS 368.428558 22.000000
   DATAREF 
   SIZE 2.000000
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-EFIS_TAS_GS_wind el_TAS_GS_wind.png
-  POS 140.000000 254.000000
-  DATAREF 
-  SIZE 1.200000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
@@ -25266,23 +25248,6 @@ gen_rotary ScreenButton
   CLICK_DX 0
   CLICK_DY 0
 
-ins_slip_inverted slip_inverted.png
-  POS 139.000000 197.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-rad_GPS_430_2d Garmin_430_2d.png
-  POS 854.000000 -67.500000
-  DATAREF 
-  SIZE 0.400000
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 gen_rotary ScreenButton
   POS 13.000000 174.500000
   IMAGE QHI-button
@@ -25368,6 +25333,15 @@ han_thrott_lin han_thro_linear.png
 ins_slip_inverted slip_inverted.png
   POS 893.000000 197.000000
   DATAREF 
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+rad_GPS_530_2d Garmin_530_2d.png
+  POS 860.000000 -20.000000
+  DATAREF 
+  SIZE 0.410000
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
