@@ -114,7 +114,7 @@ P _door/8/_type 0
 P _door/9/_type 0
 P _door/count 20
 P _engn/0/_engn_clutch_EQ 0
-P _engn/0/_engn_freewheels 0
+P _engn/0/_engn_freewheels 1
 P _engn/0/_exhaust_os_xyz/0 -0.600000024
 P _engn/0/_exhaust_os_xyz/1 7.199999809
 P _engn/0/_exhaust_os_xyz/2 4.0
@@ -145,7 +145,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR 0.0
 P _gear/0/_scon 2207.722656250
-P _gear/0/_stat_def 0.222931013
+P _gear/0/_stat_def 0.222931027
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -179,7 +179,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 2207.722656250
-P _gear/1/_stat_def 0.222931013
+P _gear/1/_stat_def 0.222931027
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -213,7 +213,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 0.0
 P _gear/2/_scon 2207.722656250
-P _gear/2/_stat_def 0.633354843
+P _gear/2/_stat_def 0.633355021
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.0
@@ -247,7 +247,7 @@ P _gear/3/_lonE 0.0
 P _gear/3/_lonN 0.0
 P _gear/3/_lonR 0.0
 P _gear/3/_scon 2207.722656250
-P _gear/3/_stat_def 0.633354843
+P _gear/3/_stat_def 0.633355021
 P _gear/3/_steerdeg_hispeed 0.0
 P _gear/3/_steerdeg_lospeed 0.0
 P _gear/3/_strut_comp 0.0
@@ -15248,7 +15248,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x -3.513812542
-P _part/87/_part_y -2.646980524
+P _part/87/_part_y -2.646980286
 P _part/87/_part_z 2.624671936
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -16717,7 +16717,7 @@ P _part/88/_part_specs_invis 1
 P _part/88/_part_tex 0
 P _part/88/_part_the 0.0
 P _part/88/_part_x 3.513812542
-P _part/88/_part_y -2.646980524
+P _part/88/_part_y -2.646980286
 P _part/88/_part_z 2.624671936
 P _part/88/_patt_con 0
 P _part/88/_patt_prt 0
@@ -24945,7 +24945,7 @@ P acf/_tank_xyz/i_count 9
 P acf/_tank_xyz/j_count 3
 P acf/_the_eqlbm 3.991985559
 P acf/_thro_non_vect_props_at_sin_vect 0
-P acf/_thro_x_ctr 675.500000000
+P acf/_thro_x_ctr 170.500000000
 P acf/_throt_max_fwd_emr 1.139999986
 P acf/_throt_max_fwd_nrm 1.139999986
 P acf/_throt_max_rev 1.0
@@ -25282,38 +25282,12 @@ gen_rotary ScreenButton
   CLICK_DX 0
   CLICK_DY 0
 
-but_rotor_brake but_rotorbrake.png
-  POS 659.000000 320.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  BUS_SRC 1
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-but_starter_HM but_starter_HM.png
-  POS 711.000000 320.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  BUS_SRC 1
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 but_fuel_off_any but_fuel_01.png
-  POS 559.000000 263.000000
+  POS 607.000000 264.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-but_battery but_battery.png
-  POS 565.000000 320.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
@@ -25325,24 +25299,8 @@ but_fuel_pump_tank but_fuelpump_tank.p
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
-but_igniter but_igniter.png
-  POS 615.000000 258.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
 han_thrott_lin han_thro_linear.png
-  POS 675.500000 237.000000
-  DATAREF 
-  LIGHT_MODE MECHANICAL
-  LIGHT_RHEOSTAT 0
-  KEY_FRAME 0.000000 0.000000 1.000000
-  KEY_FRAME 1.000000 1.000000
-
-ins_slip_inverted slip_inverted.png
-  POS 893.000000 197.000000
+  POS 170.500000 256.000000
   DATAREF 
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
@@ -25356,6 +25314,14 @@ rad_GPS_530_2d Garmin_530_2d.png
   LIGHT_MODE MECHANICAL
   LIGHT_RHEOSTAT 0
   BUS_SRC 1
+  KEY_FRAME 0.000000 0.000000 1.000000
+  KEY_FRAME 1.000000 1.000000
+
+but_govnr but_govnr.png
+  POS 124.000000 258.000000
+  DATAREF 
+  LIGHT_MODE MECHANICAL
+  LIGHT_RHEOSTAT 0
   KEY_FRAME 0.000000 0.000000 1.000000
   KEY_FRAME 1.000000 1.000000
 
