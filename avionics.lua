@@ -2,13 +2,23 @@ size = { 1024, 1024 }  --We declare here the image size we are using
 panelWidth3d  = 1024  -- I don't know why, but without these lines you cannot get the coords to work right
 panelHeight3d = 1024
 
+--defineProperty("engine_mode_current",createGlobalPropertyi("jb/sasl/engine/mode_current")) 
+--defineProperty("engine_mode_last",createGlobalPropertyi("jb/sasl/engine/mode_last"))  
+ -- 0=off,  1=starting, 2=running, or whatever, etc
+--set(engine_mode_current, 0)
+--set(engine_mode_last, 0)
+
+
+
+
+
 defineProperty("iPad1_mode",createGlobalPropertyf("jb/sasl/iPads/1/mode"))  -- 0=off, 1= EFIS or whatever, etc
 --set(iPad1_mode, -1)
 set(iPad1_mode, 0)
 
 defineProperty("iPadVisibility",createGlobalPropertyi("jb/sasl/iPads/visible"))  -- 0=off, 1= ON (INT)
-set(iPadVisibility,  0) 
---set(iPadVisibility,  1)
+--set(iPadVisibility,  0) 
+set(iPadVisibility,  1)
 
 defineProperty("HudHidden",     createGlobalPropertyi("jb/sasl/Hud/hidden"))      -- 0=visible, 1= hidden (killed) (INT)
 defineProperty("airframeHidden",createGlobalPropertyi("jb/sasl/Airframe/hidden")) -- 0=visible, 1= hidden (killed) (INT)
@@ -162,6 +172,12 @@ font_Sans36=loadFont('Custom Avionics/fonts/JB_Sans_36.fnt') -- numbers ONLY
 font_led_24=loadFont('Custom Avionics/fonts/JB_LED_7S_24.fnt')
 font_led_32=loadFont('Custom Avionics/fonts/JB_LED_7S_32.fnt')
 
+previous_Thr_Gov = 'back'  -- throttle governor yellow handle, alt= fwd
+current_Thr_Gov  = 'back'  
+previous_Starter = 'off'   -- start switch, alt= run or ign
+current_Starter  = 'off'  
+
+-- if previous_Thr_Gov == current_Thr_Gov  and  previous_Starter == current_Starter  then -- no change
 
 components = {
 

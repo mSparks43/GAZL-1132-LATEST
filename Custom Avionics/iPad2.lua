@@ -12,7 +12,7 @@ function draw() -- spare / dev
 	drawText(font_Sans12, 15, 100, textForPrinting , 0.1,1,0)
 	
 	textForPrinting = 'ignition_key: ' .. get(ignition_key)
-	drawText(font_Sans12, 115, 115, textForPrinting , 0.1,1,0)
+	drawText(font_Sans12, 15, 85, textForPrinting , 0.1,1,0)
 	-- 0 = off, 1 = left, 2 = right, 3 = both, 4 = starting ( 3 == run position
 	
 	--sim/cockpit2/engine/actuators/clutch_engage[0]
