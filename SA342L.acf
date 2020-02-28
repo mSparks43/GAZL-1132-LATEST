@@ -145,7 +145,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR 0.0
 P _gear/0/_scon 2207.722656250
-P _gear/0/_stat_def 0.222931027
+P _gear/0/_stat_def 0.222930998
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -179,7 +179,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 2207.722656250
-P _gear/1/_stat_def 0.222931027
+P _gear/1/_stat_def 0.222930998
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -213,7 +213,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 0.0
 P _gear/2/_scon 2207.722656250
-P _gear/2/_stat_def 0.633355021
+P _gear/2/_stat_def 0.633354843
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp 0.0
@@ -247,7 +247,7 @@ P _gear/3/_lonE 0.0
 P _gear/3/_lonN 0.0
 P _gear/3/_lonR 0.0
 P _gear/3/_scon 2207.722656250
-P _gear/3/_stat_def 0.633355021
+P _gear/3/_stat_def 0.633354843
 P _gear/3/_steerdeg_hispeed 0.0
 P _gear/3/_steerdeg_lospeed 0.0
 P _gear/3/_strut_comp 0.0
@@ -15248,7 +15248,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x -3.513812542
-P _part/87/_part_y -2.646980286
+P _part/87/_part_y -2.646980524
 P _part/87/_part_z 2.624671936
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -16717,7 +16717,7 @@ P _part/88/_part_specs_invis 1
 P _part/88/_part_tex 0
 P _part/88/_part_the 0.0
 P _part/88/_part_x 3.513812542
-P _part/88/_part_y -2.646980286
+P _part/88/_part_y -2.646980524
 P _part/88/_part_z 2.624671936
 P _part/88/_patt_con 0
 P _part/88/_patt_prt 0
@@ -24476,7 +24476,7 @@ P acf/_nom_bat_volt 24.0
 P acf/_nom_fuelP 30.0
 P acf/_nom_gen_volt 24.500000000
 P acf/_nom_oilP 115.0
-P acf/_notes 2020 Feb 19 version 1.1
+P acf/_notes 2020 Feb 28 version 1.1 BETA
 P acf/_num_batteries 1
 P acf/_num_braking_wheels 0.0
 P acf/_num_buses 2
@@ -24770,10 +24770,10 @@ P acf/_slat_ret2_time 5.0
 P acf/_slat_with_Vind 0.0
 P acf/_slat_with_stall_EQ 0
 P acf/_slung_len 32.808399200
-P acf/_snd_N1 90.0
-P acf/_snd_kias 150.0
+P acf/_snd_N1 100.0
+P acf/_snd_kias 115.0
 P acf/_snd_rpm_eng 2500.0
-P acf/_snd_rpm_prp 400.0
+P acf/_snd_rpm_prp 380.0
 P acf/_solar_cover_part 0.0
 P acf/_solar_eta 0.0
 P acf/_speedbrake_ext_time 1.0
