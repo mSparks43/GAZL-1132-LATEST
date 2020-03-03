@@ -13,12 +13,12 @@ panelHeight3d = 1024
 
 
 defineProperty("iPad1_mode",createGlobalPropertyf("jb/sasl/iPads/1/mode"))  -- 0=off, 1= EFIS or whatever, etc
---set(iPad1_mode, -1)
-set(iPad1_mode, 0)
+set(iPad1_mode, -1)
+--set(iPad1_mode, 0)
 
 defineProperty("iPadVisibility",createGlobalPropertyi("jb/sasl/iPads/visible"))  -- 0=off, 1= ON (INT)
---set(iPadVisibility,  0) 
-set(iPadVisibility,  1)
+set(iPadVisibility,  0) 
+--set(iPadVisibility,  1)
 
 defineProperty("HudHidden",     createGlobalPropertyi("jb/sasl/Hud/hidden"))      -- 0=visible, 1= hidden (killed) (INT)
 defineProperty("airframeHidden",createGlobalPropertyi("jb/sasl/Airframe/hidden")) -- 0=visible, 1= hidden (killed) (INT)
